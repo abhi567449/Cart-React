@@ -1,0 +1,107 @@
+.header
+{
+    background-color: blue;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-content: center;
+    align-items: center;
+}
+
+body
+{
+    margin: 0px;
+}
+
+.shopping-icon
+{
+    margin-top: 10px;
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+.body-div
+{
+    display: flex;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(213, 225, 235);
+}
+.cart-heading
+{
+    font-size: 28px;
+    margin-left: 44%;
+    margin-top: 5%;
+}
+.items-div
+{
+    width: 500px;
+    margin-left: 25%;
+}
+
+.item-img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.cart-items
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.arrow
+{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+.button-remove
+{
+    border: none;
+    background-color: transparent;
+    color: rgb(96, 102, 107);
+    cursor: pointer;
+}
+.details-items
+{
+    line-height: 0.4rem;
+    width: 500px;
+    height: 100px;
+}
+.total-div
+{
+    display: flex;
+    justify-content: space-between;
+}
+.clear-cart-button
+{
+    margin-left: 40%;
+    cursor: pointer;
+    background-color: rgb(85, 134, 134);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.total-items-cart
+{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    color: black;
+    margin-left: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    top: 10px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1000;
+}
