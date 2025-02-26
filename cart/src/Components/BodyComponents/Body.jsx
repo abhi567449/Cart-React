@@ -49,6 +49,11 @@ function Body({setCartValue,CartValue}) {
 
     const removeItem = (id) => {
         setCart(cart.filter(item => item.id !== id));
+    
+        if(cart.length===1)
+        {
+            setVisible(true)
+        }
     };
    
   return (
